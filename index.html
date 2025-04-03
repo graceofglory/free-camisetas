@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free camisetas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="sidebar">
+            <h2>Menu</h2>
+            <a href="#feminina" aria-label="Ir para a seção feminina">Feminina</a>
+            <a href="#masculina" aria-label="Ir para a seção masculina">Masculina</a>
+            <a href="#contact" aria-label="Ir para a seção de contato">Contato</a>
+        </nav>
+
+        <main class="main-content" id="page1">
+            <header>
+                <h1>Free</h1>
+                <h2>Camisetas Personalizadas</h2>
+            </header>           
+           
+            <section class="products" id="feminina">
+                <h2>Femininas</h2>   
+                <div class="product">
+                    <img src="https://i.pinimg.com/474x/b3/d8/e7/b3d8e73850fe39579d9c09d888f73d98.jpg" alt="Toalha Copacabana listrada" onclick="openModal('https://i.pinimg.com/474x/b3/d8/e7/b3d8e73850fe39579d9c09d888f73d98.jpg')">
+                    <h3>Toalha Copacabana</h3>
+                    <p class="description">Material: 100% Algodão</p>
+                    <p class="description">Tamanhos Disponíveis: Único</p>
+                    <p class="description">Cores Disponíveis: Azul, Vermelho, Branco</p>
+                    <p class="description" id="stock-toalha-fem-1">Quantidade em Estoque: 10</p>
+                    <p class="price">R$ 79,90</p>
+                    <button aria-label="Adicionar Toalha Copacabana ao carrinho" onclick="addToCart('Toalha Copacabana', 79.90, 'stock-toalha-fem-1')">Adicionar ao Carrinho</button>
+                </div> 
+                <div class="product">
+                    <img src="https://via.placeholder.com/150?text=Vestido+Verão" alt="Vestido Verão" onclick="openModal('https://via.placeholder.com/150?text=Vestido+Verão')">
+                    <h3>Vestido Verão</h3>
+                    <p class="description">Material: Viscose</p>
+                    <p class="description">Tamanhos Disponíveis: P, M</p>
+                    <p class="description">Cores Disponíveis: Amarelo, Azul</p>
+                    <p class="description" id="stock-vestido-fem-3">Quantidade em Estoque: 8</p>
+                    <p class="price">R$ 89,90</p>
+                    <button aria-label="Adicionar Vestido Verão ao carrinho" onclick="addToCart('Vestido Verão', 89.90, 'stock-vestido-fem-3')">Adicionar ao Carrinho</button>
+                </div>            
+                <div class="product">
+                    <img src="https://via.placeholder.com/150?text=Camiseta+Feminina" alt="Camiseta Feminina" onclick="openModal('https://via.placeholder.com/150?text=Camiseta+Feminina')">
+                    <h3>Camiseta Feminina</h3>
+                    <p class="description">Material: Algodão</p>
+                    <p class="description">Tamanhos Disponíveis: P, M, G</p>
+                    <p class="description">Cores Disponíveis: Rosa, Branco</p>
+                    <p class="description" id="stock-camiseta-fem-2">Quantidade em Estoque: 20</p>
+                    <p class="price">R$ 49,90</p>
+                    <button aria-label="Adicionar Camiseta Feminina ao carrinho" onclick="addToCart('Camiseta Feminina', 49.90, 'stock-camiseta-fem-2')">Adicionar ao Carrinho</button>
+                </div>
+                <div class="product">
+                    <img src="https://via.placeholder.com/150?text=Vestido+Verão" alt="Vestido Verão" onclick="openModal('https://via.placeholder.com/150?text=Vestido+Verão')">
+                    <h3>Vestido Verão</h3>
+                    <p class="description">Material: Viscose</p>
+                    <p class="description">Tamanhos Disponíveis: P, M</p>
+                    <p class="description">Cores Disponíveis: Amarelo, Azul</p>
+                    <p class="description" id="stock-vestido-fem-3">Quantidade em Estoque: 8</p>
+                    <p class="price">R$ 89,90</p>
+                    <button aria-label="Adicionar Vestido Verão ao carrinho" onclick="addToCart('Vestido Verão', 89.90, 'stock-vestido-fem-3')">Adicionar ao Carrinho</button>
+                </div>
+            </section>
+
+            <section class="products" id="masculina">
+                <h2>Masculinas</h2>
+                <div class="product">
+                    <img src="https://via.placeholder.com/150?text=Vestido+Verão" alt="Vestido Verão" onclick="openModal('https://via.placeholder.com/150?text=Vestido+Verão')">
+                    <h3>Vestido Verão</h3>
+                    <p class="description">Material: Viscose</p>
+                    <p class="description">Tamanhos Disponíveis: P, M</p>
+                    <p class="description">Cores Disponíveis: Amarelo, Azul</p>
+                    <p class="description" id="stock-vestido-fem-3">Quantidade em Estoque: 8</p>
+                    <p class="price">R$ 89,90</p>
+                    <button aria-label="Adicionar Vestido Verão ao carrinho" onclick="addToCart('Vestido Verão', 89.90, 'stock-vestido-fem-3')">Adicionar ao Carrinho</button>
+                </div>
+                <div class="product">
+                    <img src="https://via.placeholder.com/150?text=Vestido+Verão" alt="Vestido Verão" onclick="openModal('https://via.placeholder.com/150?text=Vestido+Verão')">
+                    <h3>Vestido Verão</h3>
+                    <p class="description">Material: Viscose</p>
+                    <p class="description">Tamanhos Disponíveis: P, M</p>
+                    <p class="description">Cores Disponíveis: Amarelo, Azul</p>
+                    <p class="description" id="stock-vestido-fem-3">Quantidade em Estoque: 8</p>
+                    <p class="price">R$ 89,90</p>
+                    <button aria-label="Adicionar Vestido Verão ao carrinho" onclick="addToCart('Vestido Verão', 89.90, 'stock-vestido-fem-3')">Adicionar ao Carrinho</button>
+                </div>
+                <div class="product">
+                    <img src="https://via.placeholder.com/150?text=Vestido+Verão" alt="Vestido Verão" onclick="openModal('https://via.placeholder.com/150?text=Vestido+Verão')">
+                    <h3>Vestido Verão</h3>
+                    <p class="description">Material: Viscose</p>
+                    <p class="description">Tamanhos Disponíveis: P, M</p>
+                    <p class="description">Cores Disponíveis: Amarelo, Azul</p>
+                    <p class="description" id="stock-vestido-fem-3">Quantidade em Estoque: 8</p>
+                    <p class="price">R$ 89,90</p>
+                    <button aria-label="Adicionar Vestido Verão ao carrinho" onclick="addToCart('Vestido Verão', 89.90, 'stock-vestido-fem-3')">Adicionar ao Carrinho</button>
+                </div>
+                <div class="product">
+                    <img src="https://via.placeholder.com/150?text=Vestido+Verão" alt="Vestido Verão" onclick="openModal('https://via.placeholder.com/150?text=Vestido+Verão')">
+                    <h3>Vestido Verão</h3>
+                    <p class="description">Material: Viscose</p>
+                    <p class="description">Tamanhos Disponíveis: P, M</p>
+                    <p class="description">Cores Disponíveis: Amarelo, Azul</p>
+                    <p class="description" id="stock-vestido-fem-3">Quantidade em Estoque: 8</p>
+                    <p class="price">R$ 89,90</p>
+                    <button aria-label="Adicionar Vestido Verão ao carrinho" onclick="addToCart('Vestido Verão', 89.90, 'stock-vestido-fem-3')">Adicionar ao Carrinho</button>
+                </div>
+            </section>
+
+            <section class="contact" id="contact">
+                <h2>Contato</h2>
+                <p>Email: <a href="mailto:loja@copacabana.com">loja@copacabana.com</a></p>
+                <p>Telefone: (21) 98765-4321</p>
+                <p>Endereço: Av. Atlântica, 1000 - Copacabana</p>
+            </section>
+        </main>
+
+        <section class="main-content" id="page2" style="display: none;">
+            <h1>Finalizar Pagamento</h1>
+            <div class="payment-options">
+                <h3>Forma de Pagamento:</h3>
+                <label><input type="radio" name="payment" value="pix" onclick="togglePaymentFields('pix')"> PIX</label>
+                <label><input type="radio" name="payment" value="cartao" onclick="togglePaymentFields('cartao')"> Cartão de Crédito/Débito</label>
+                <label><input type="radio" name="payment" value="picpay" onclick="togglePaymentFields('picpay')"> PicPay</label>
+                
+                <div id="pix-fields" class="payment-fields" style="display: none;">
+                    <p>Chave PIX: loja@copacabana.com</p>
+                    <p>Ou use o QR Code (simulado):</p>
+                    <img src="https://via.placeholder.com/150x150?text=QR+Code+PIX" alt="QR Code para pagamento via PIX">
+                    <label for="pix-key">Confirme a Chave PIX:</label>
+                    <input type="text" id="pix-key" placeholder="Digite a chave PIX" required>
+                    <button onclick="simulateQRCodeRead()">Simular Leitura do QR Code</button>
+                </div>
+                
+                <div id="cartao-fields" class="payment-fields" style="display: none;">
+                    <label for="card-number">Número do Cartão:</label>
+                    <input type="text" id="card-number" placeholder="1234 5678 9012 3456" pattern="[0-9]{4} [0-9]{4} [0-9]{4} [0-9]{4}" maxlength="19" required>
+                    <label for="card-name">Nome no Cartão:</label>
+                    <input type="text" id="card-name" placeholder="Nome Completo" required>
+                    <label for="card-expiry">Data de Validade:</label>
+                    <input type="text" id="card-expiry" placeholder="MM/AA" pattern="(0[1-9]|1[0-2])/[0-9]{2}" maxlength="5" required>
+                    <label for="card-cvv">CVV:</label>
+                    <input type="text" id="card-cvv" placeholder="123" pattern="[0-9]{3}" maxlength="3" required>
+                </div>
+                
+                <div id="picpay-fields" class="payment-fields" style="display: none;">
+                    <label for="picpay-user">Usuário PicPay:</label>
+                    <input type="text" id="picpay-user" placeholder="@seuusuario" pattern="@[a-zA-Z0-9]+" required>
+                </div>
+            </div>
+            <button id="finalize-btn" aria-label="Finalizar compra" onclick="finalizePurchase()">Finalizar Compra</button>
+        </section>
+
+        <aside class="cart">
+            <h2>Carrinho</h2>
+            <div id="cart-items"></div>
+            <p>Total: R$ <span id="cart-total">0.00</span></p>
+            <p>Itens: <span id="cart-count">0</span></p>
+            <button aria-label="Ir para pagamento" onclick="goToPayment()">Pagar</button>
+        </aside>
+
+        <div id="modal" class="modal" role="dialog" aria-modal="true">
+            <div class="modal-content">
+                <span class="close-btn" aria-label="Fechar modal" onclick="closeModal()">×</span>
+                <img id="modal-image" src="" alt="Imagem ampliada do produto">
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Estado inicial do carrinho
+        let cart = [];
+        let total = 0;
+        let itemCount = 0;
+
+        // Adicionar item ao carrinho
+        function addToCart(productName, price, stockId) {
+            const stockElement = document.getElementById(stockId);
+            if (!stockElement) return;
+            let stock = parseInt(stockElement.textContent.split(": ")[1]);
+            if (stock <= 0) {
+                alert("Produto esgotado!");
+                return;
+            }
+            cart.push({ name: productName, price: price });
+            total += price;
+            itemCount++;
+            stock--;
+            stockElement.textContent = `Quantidade em Estoque: ${stock}`;
+            updateCart();
+        }
+
+        // Atualizar exibição do carrinho
+        function updateCart() {
+            const cartItems = document.getElementById("cart-items");
+            if (!cartItems) return;
+            cartItems.innerHTML = cart.map(item => `<p>${item.name} - R$ ${item.price.toFixed(2)}</p>`).join("");
+            document.getElementById("cart-total").textContent = total.toFixed(2);
+            document.getElementById("cart-count").textContent = itemCount;
+        }
+
+        // Navegar para a página de pagamento
+        function goToPayment() {
+            if (itemCount === 0) {
+                alert("O carrinho está vazio!");
+                return;
+            }
+            document.getElementById("page1").style.display = "none";
+            document.getElementById("page2").style.display = "block";
+        }
+
+        // Alternar campos de pagamento
+        function togglePaymentFields(method) {
+            document.getElementById("pix-fields").style.display = method === "pix" ? "block" : "none";
+            document.getElementById("cartao-fields").style.display = method === "cartao" ? "block" : "none";
+            document.getElementById("picpay-fields").style.display = method === "picpay" ? "block" : "none";
+        }
+
+        // Simular leitura do QR Code
+        function simulateQRCodeRead() {
+            const pixKey = document.getElementById("pix-key");
+            if (pixKey) {
+                pixKey.value = "loja@copacabana.com";
+                alert("QR Code simulado lido com sucesso!");
+            }
+        }
+
+        // Finalizar compra com validação aprimorada
+        function finalizePurchase() {
+            const selectedPayment = document.querySelector('input[name="payment"]:checked');
+            if (!selectedPayment) {
+                alert("Selecione uma forma de pagamento!");
+                return;
+            }
+            const method = selectedPayment.value;
+            let errors = [];
+
+            if (method === "pix") {
+                const pixKey = document.getElementById("pix-key").value.trim();
+                if (pixKey !== "loja@copacabana.com") {
+                    errors.push("Chave PIX inválida!");
+                }
+            } else if (method === "cartao") {
+                const inputs = document.querySelectorAll("#cartao-fields input");
+                inputs.forEach(input => {
+                    if (!input.checkValidity()) {
+                        errors.push(`Campo "${input.labels[0].textContent}" inválido ou vazio!`);
+                    }
+                });
+            } else if (method === "picpay") {
+                const picpayUser = document.getElementById("picpay-user").value.trim();
+                if (!picpayUser || !/@[a-zA-Z0-9]+/.test(picpayUser)) {
+                    errors.push("Usuário PicPay inválido (ex.: @usuario)!");
+                }
+            }
+
+            if (errors.length > 0) {
+                alert("Erro ao finalizar compra:\n- " + errors.join("\n- "));
+                return;
+            }
+
+            alert("Compra finalizada com sucesso!");
+            cart = [];
+            total = 0;
+            itemCount = 0;
+            updateCart();
+            document.getElementById("page2").style.display = "none";
+            document.getElementById("page1").style.display = "block";
+        }
+
+        // Abrir modal
+        function openModal(imageSrc) {
+            const modal = document.getElementById("modal");
+            const modalImage = document.getElementById("modal-image");
+            if (modal && modalImage) {
+                modal.style.display = "block";
+                modalImage.src = imageSrc;
+                modal.focus();
+            }
+        }
+
+        // Fechar modal
+        function closeModal() {
+            const modal = document.getElementById("modal");
+            if (modal) modal.style.display = "none";
+        }
+
+        // Eventos do modal
+        document.addEventListener("DOMContentLoaded", () => {
+            const modal = document.getElementById("modal");
+            if (modal) {
+                modal.addEventListener("click", (e) => {
+                    if (e.target === modal) closeModal();
+                });
+                modal.addEventListener("keydown", (e) => {
+                    if (e.key === "Escape") closeModal();
+                });
+            }
+        });
+    </script>
+</body>
+</html>
